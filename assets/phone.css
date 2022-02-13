@@ -1,0 +1,27 @@
+
+#heading{
+     
+      height:9rem;
+      width: 100%;
+       flex-direction: column;
+      
+
+}
+#time{
+    
+   left: auto;
+   right: auto;
+   bottom: 5rem;
+   
+
+}
+
+
+.card{
+    flex-wrap: wrap;
+    overflow: auto;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+

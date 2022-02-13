@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+#heading{
+      background-color: #218380;
+      /* border:2px solid red; */
+      padding:17px;
+       display: flex;
+       /* flex-direction: column; */
+      align-items: center;
+    position: relative;
+    color:white;
+
+}
+
+#time{
+    display: flex;
+    position:absolute;
+   right:4rem;
+ 
+}
+
+#heading:hover{
+     cursor: pointer;
+}
+
+
+
+
+
+main{
+
+   
+    /* border: 2px solid red; */
+    width:60%;
+    margin:70px auto;
+    
+    height:25rem;
+   
+    /* display:none; */
+
+}
+
+.card p,.card button{
+   margin: 15px 0px;
+}
+
+
+
+
+.card{
+    margin: 15px auto;
+    padding: 44px 51px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid  grey;
+    width: 85%;
+    border-radius: 6%;
+    box-shadow: 6px 6px 14px -3px grey;
+    height: 18rem;
+}
+
+.btn{
+   /* width:16%;  */
+   height:12%;
+   padding:5px;
+   border-radius:6px;
+   background-color:#218380 ;
+   font-weight: bold;
+   outline:none;
+   color:white;
+}
+#questions{
+    display: none;
+}
+#questions button {
+    margin: 9px;
+    width: 40rem;
+    padding-right: 32rem;
+    font-weight: bold;
+}
+
+.newClass{
+    margin:41px auto;
+    width: 51%;
+}
